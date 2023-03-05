@@ -1,0 +1,18 @@
+.form-label { font-weight:600; }
+.alert {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+input[type='radio'] { transform:scale(.8); }
+input::placeholder { font-weight:500;}
+select.form-select {font-weight:600;}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
